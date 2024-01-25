@@ -841,5 +841,5 @@
 }
 
 body{
-  background:#140956 ;
+  background: var(--color-gray-200);
 }
