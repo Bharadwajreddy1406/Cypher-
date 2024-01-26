@@ -534,15 +534,15 @@
 }
 .logo-1-icon {
   position: relative;
-  width: 369px;
-  height: 75px;
+  width: 250px;
+  height: 50px;
   object-fit: cover;
 }
 .logo {
   width: calc(100% - 948px);
-  top: 0;
+  top: 15px;
   right: 948px;
-  left: 0;
+  left: 56px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -558,9 +558,10 @@
 }
 .about {
   width: calc(100% - 1191.6px);
-  top: 25px;
+  top: 24px;
   right: 0;
-  left: 1191.6px;
+  float: right;
+  margin-right: 45px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -570,11 +571,11 @@
 }
 .nav-bar {
   width: calc(100% - 186px);
-  top: 77px;
+  top: 40px;
   right: 94px;
   left: 92px;
   height: 95px;
-  font-size: var(--font-size-21xl);
+  font-size:20px;
   font-family: var(--font-share);
 }
 .instructions1 {
