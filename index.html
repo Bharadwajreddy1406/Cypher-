@@ -130,15 +130,14 @@
     var downloadButton = document.getElementById("downloadButton");
 
     downloadButton.addEventListener("click", function() {
-        // You can replace '#' with the actual file URL you want to download
-        var fileUrl = "public\\Final.zip";
+        var fileUrl = "./public/Final.zip";
         downloadFile(fileUrl);
     });
 
     function downloadFile(url) {
         var link = document.createElement('a');
         link.href = url;
-        link.download = "Cypher"; // Set the desired file name
+        link.download = "Cypher"; 
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -166,10 +165,7 @@
       </div>
       <script>
         document.getElementById('downloaddocumentation').onclick = function() {
-          // Replace 'your_file_url' with the actual URL of your file
-          var fileUrl = './public/BharadwajReddy_resume_finale001.pdf';
-          
-          // Open the file in a new tab
+          var fileUrl = './public/Official_documentation_for_CyPHER.pdf';
           window.open(fileUrl, '_blank');
         };
 
@@ -209,27 +205,7 @@
     </div>
     </div>
     
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-  var downloadButton = document.getElementById("instruct");
 
-  downloadButton.addEventListener("click", function() {
-      // You can replace '#' with the actual file URL you want to download
-      var fileUrl = "public\\BharadwajReddy_resume_finale001.pdf";
-      downloadFile(fileUrl);
-  });
-
-  function downloadFile(url) {
-      var link = document.createElement('a');
-      link.href = url;
-      link.download = "Documentation"; // Set the desired file name
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-  }
-  });
-
-    </script>
 
     <script>
       var fAQContainer = document.getElementById("fAQContainer");
